@@ -63,15 +63,19 @@ Alternatively, you can build the docker image using following command.
 docker build --rm -t vt_ip_monitor . --no-cache
 ```
 
-Create following files.
+Create following file.
 
 1. env
-2. history
 
-Populate the first file (`env`) with following value.
+Populate the first file (`env`) with following values.
 
 ```
-SLACK_ENDPOINT=<your value here>
+VT_API_KEY=<YOUR_VALUE>
+IP_TO_MONITOR=<YOUR_VALUE>
+VT_ENDPOINT=<YOUR_VALUE>
+VT_LOCAL_SETTINGS_FILE=<YOUR_VALUE>
+SLACK_ENDPOINT=<YOUR_VALUE>
+PRESENT_RESOLUTIONS=<YOUR_VALUE>
 ```
 
 Run the container using following command.
