@@ -2,7 +2,7 @@
 
 A Python 3 script to monitor your IP for malicious domains/URL.
 
-Script uses VT API to do the IP lookups and PDNS
+Script uses VT API to do the IP lookups and PDNS. Notification is sent via Slack.
 
 ## Dependencies
 
